@@ -4,4 +4,9 @@
     <string name="title">Notifications</string>
     <string name="collapse">Collapse</string>
     <string name="remove_all">Remove all</string>
+    <string name="i0">0</string>
+    <string name="i1">1</string>
+    <string name="i2">2</string>
+    <string name="i3">3</string>
+    <string name="i4">4</string>
 </resources>

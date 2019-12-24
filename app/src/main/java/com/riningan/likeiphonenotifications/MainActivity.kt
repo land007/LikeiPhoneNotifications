@@ -31,6 +31,12 @@ class MainActivity : AppCompatActivity() {
         override fun getDescriptionText() = "Description 4"
         override fun getTimeText() = "10:10"
     }
+    private val mNotification5 = object : Notification {
+        override fun getTitleText() = "Title 5"
+        override fun getSubTitleText() = "SubTitle 5"
+        override fun getDescriptionText() = "Description 5"
+        override fun getTimeText() = "10:10"
+    }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,6 +48,7 @@ class MainActivity : AppCompatActivity() {
             add(mNotification2)
             add(mNotification3)
             add(mNotification4)
+            add(mNotification5)
         })
 
         btn0.setOnClickListener {
@@ -75,6 +82,7 @@ class MainActivity : AppCompatActivity() {
                 add(mNotification2)
                 add(mNotification3)
                 add(mNotification4)
+                add(mNotification5)
             })
         }
     }
